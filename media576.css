@@ -1,0 +1,55 @@
+@media screen and (max-width:576px) {
+    .head{
+        max-width: 350px;
+        flex-direction: column;
+    }
+    .menu a{
+        padding: 4px 9px;
+    }
+    .header_content {
+        margin: 40px 0 0 0;
+    }
+    
+h1 { 
+
+    font-size: 22px;
+    line-height: 28px;
+    max-width: 95%; 
+}
+.header_content button {
+    margin: 10px auto;
+    font-size: 14px;
+    line-height: 23px;
+    padding: 10px 40px;
+}
+.header {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.title h2 {
+    font-size: 18px;
+    line-height: 38px;
+}
+.title p {
+    font-size: 12px;
+    line-height: 21px;
+}
+.services {
+    padding-top: 40px;
+    padding-bottom: 55px;
+}
+.list_services{
+margin: 20px auto 0;
+}
+.service div {
+    height: 140px;
+}
+.service h4 {
+    font-size: 17px;
+    line-height: 30px;
+}
+.service p {
+    font-size: 12px;
+    line-height: 20px;
+}
+}
