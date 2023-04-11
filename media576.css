@@ -52,4 +52,20 @@ margin: 20px auto 0;
     font-size: 12px;
     line-height: 20px;
 }
+.meet {
+    background: #E7F1F8;
+    padding: 40px 0 55px;
+}
+.dev .name{
+    font-size: 17px;
+    line-height: 30px;
+}
+.dev .prof{
+    font-size: 14px;
+    line-height: 22px;
+}
+.dev p {
+    font-size: 12px;
+    line-height: 20px;
+}
 }

@@ -39,4 +39,23 @@
     font-size: 14px;
     line-height: 22px;
 }
+.meet {
+    background: #E7F1F8;
+    padding: 60px 0 75px;
+}
+.dev .name{
+    font-size: 19px;
+    line-height: 32px;
+}
+.dev .prof{
+    font-size: 14px;
+    line-height: 22px;
+}
+.dev p {
+    font-size: 14px;
+    line-height: 22px;
+}
+.devops_social{
+    margin-top: 15px;
+}
 }
