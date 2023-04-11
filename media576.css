@@ -56,7 +56,7 @@ margin: 20px auto 0;
     background: #E7F1F8;
     padding: 40px 0 55px;
 }
-.dev .name{
+.dev .name,.skill .name{
     font-size: 17px;
     line-height: 30px;
 }
@@ -67,5 +67,9 @@ margin: 20px auto 0;
 .dev p {
     font-size: 12px;
     line-height: 20px;
+}
+.skills {
+    padding-top: 40px;
+    padding-bottom: 55px;
 }
 }

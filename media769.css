@@ -43,7 +43,7 @@
     background: #E7F1F8;
     padding: 60px 0 75px;
 }
-.dev .name{
+.dev .name,.skill .name{
     font-size: 19px;
     line-height: 32px;
 }
@@ -57,5 +57,13 @@
 }
 .devops_social{
     margin-top: 15px;
+}
+.skills {
+    padding-top: 60px;
+    padding-bottom: 75px;
+}
+.skill{
+    max-width: 300px;
+    width: 45%;
 }
 }
