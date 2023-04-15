@@ -10,7 +10,7 @@
         line-height: 44px;
         max-width: 80%; 
     }
-    .header_content button {
+    .header_content button,.portfolio button {
         margin: 15px auto;
         font-size: 16px;
         line-height: 25px;
@@ -73,5 +73,18 @@
         padding-top: 80px;
         padding-bottom: 95px;
     }
+    .portfolio {
+        padding: 80px 0;
+    }
+    .work img {
+        max-width: 100%;
+    }
+    .work{
+        justify-content: space-around;
+    }
+    .work li{
+        max-width: 35%;
+    }
+
 
 }

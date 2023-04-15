@@ -16,7 +16,7 @@ h1 {
     line-height: 28px;
     max-width: 95%; 
 }
-.header_content button {
+.header_content button,.portfolio button {
     margin: 10px auto;
     font-size: 14px;
     line-height: 23px;
@@ -71,5 +71,15 @@ margin: 20px auto 0;
 .skills {
     padding-top: 40px;
     padding-bottom: 55px;
+}
+.portfolio {
+    padding: 40px 0;
+}
+.work h5 {
+    font-size: 14px;
+    line-height: 22px;
+}
+.work li{
+    max-width: 40%;
 }
 }
