@@ -16,7 +16,7 @@ h1 {
     line-height: 28px;
     max-width: 95%; 
 }
-.header_content button,.portfolio button {
+.header_content button,form button,.portfolio button {
     margin: 10px auto;
     font-size: 14px;
     line-height: 23px;
@@ -72,7 +72,7 @@ margin: 20px auto 0;
     padding-top: 40px;
     padding-bottom: 55px;
 }
-.portfolio {
+.portfolio,.touch,.people {
     padding: 40px 0;
 }
 .work h5 {
@@ -81,5 +81,26 @@ margin: 20px auto 0;
 }
 .work li{
     max-width: 40%;
+}
+.user p{
+    font-size: 15px;
+    line-height: 26px;
+}
+.user h4{
+    font-size: 18px;
+    line-height: 31px;
+    margin-top: 10px;
+}
+.user span{
+    font-size: 12px;
+    line-height: 15px;
+}
+input, input::placeholder, textarea, textarea::placeholder{
+    font-size: 14px;
+    line-height: 23px;
+}
+footer a{
+    font-size: 18px;
+    line-height: 31px;
 }
 }

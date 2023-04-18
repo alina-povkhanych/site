@@ -66,7 +66,7 @@
     max-width: 300px;
     width: 45%;
 }
-.portfolio {
+.portfolio,.touch,.people {
     padding: 60px 0;
 }
 .work h5 {
@@ -76,6 +76,40 @@
 .filter li{
     font-size: 14px;
     line-height: 20px;
+}
+.user p{
+    font-size: 17px;
+    line-height: 28px;
+}
+.user h4{
+    font-size: 20px;
+    line-height: 33px;
+    margin-top: 20px;
+}
+.user span{
+    font-size: 14px;
+    line-height: 17px;
+}
+form div{
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+form{
+    width: 90%;
+}
+input{
+    width: 100%;
+}
+footer a{
+    font-size: 20px;
+    line-height: 33px;
+}
+footer ul {
+    justify-content: center;
+    max-width: 90%;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 }

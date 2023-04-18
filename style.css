@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 *{
     margin: 0;
     padding: 0;
@@ -35,8 +42,12 @@ border-radius: 10px;
 padding: 22px 82px;
 }
 .menu{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     list-style-type: none;
 }
 .menu a{
@@ -49,17 +60,27 @@ text-transform: uppercase;
 color: #FFFFFF;
 display: block;
 padding: 7px 18px;
+-webkit-transition: 0.3s;
+-o-transition: 0.3s;
 transition: 0.3s;
 }
 .menu a:hover{
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
     background: #643A79;
     border-radius: 5px;
 }
 .head{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     max-width: 1029px;
     margin: 0 auto;
 }
@@ -105,9 +126,15 @@ margin: 0 auto 25px auto;
 }
 .service div{
     height: 183px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
 }
 .service h4{
     font-weight: 700;
@@ -132,9 +159,15 @@ text-align: center;
     
 }
 .list_services{
+display: -webkit-box;
+display: -ms-flexbox;
 display: flex;
-justify-content: space-between;
-align-items: flex-start;
+-webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+-webkit-box-align: start;
+    -ms-flex-align: start;
+        align-items: flex-start;
 max-width: 1050px;
 list-style-type: none;
 margin: 69px auto 0;
@@ -144,9 +177,15 @@ margin: 69px auto 0;
     padding: 107px 0 126px;
 }
 .devops,.list_skills{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     max-width: 1040px;
     list-style-type: none;
     margin: 74px auto 0;  
@@ -186,9 +225,15 @@ margin-top: 9px;
 }
 .devops_social{
     list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     gap: 11px;
     margin-top: 37px;
 }
@@ -200,9 +245,15 @@ margin-top: 9px;
 
 }
 .dev_social a{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 100%;
     height: 100%;
 }
@@ -224,9 +275,15 @@ margin-top: 9px;
 height: 160px;
 margin: 0 auto;
 position: relative;
+display: -webkit-box;
+display: -ms-flexbox;
 display: flex;
-justify-content: center;
-align-items: center;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
 }
 .procent img{
     position: absolute;
@@ -252,9 +309,15 @@ color: #3C4761;
     padding: 108px 0;
 }
 .filter{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     gap: 10px;
     list-style-type: none;
     margin-top: 37px;
@@ -270,20 +333,31 @@ line-height: 27px;
 color: #393939;
 background: rgba(0, 0, 0, 0.08);
 border-radius: 3px;
+-webkit-transition: 0.3s;
+-o-transition: 0.3s;
 transition: 0.3s;
 }
 .filter .active,.filter li:hover{
 background: white;
+-webkit-transition: 0.3s;
+-o-transition: 0.3s;
 transition: 0.3s;
 cursor: pointer;
 }
 .work{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     max-width: 1103px;
     margin: 62px auto 0;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     list-style: none;
     gap:  56px 0;
 }
@@ -315,6 +389,8 @@ border-radius: 10px;
 border: none;
 background: #17C2A4;
 margin: 75px auto 0;
+display: -webkit-box;
+display: -ms-flexbox;
 display: flex;
 
 }
@@ -325,19 +401,32 @@ display: flex;
 .users{
     max-width: 1076px;
     list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     margin: 83px auto 0;
     gap: 100px 0;
 }
 .user{
     max-width: 502px;
     color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     gap: 0 45px;
 }
 .user p{
@@ -386,7 +475,36 @@ input,textarea{
 outline: none;
 border: none;
 border-radius: 4px;
-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+        box-sizing: border-box;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    
+    color: #FFFFFF;
+}
+input::-moz-placeholder, textarea::-moz-placeholder{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    
+    color: #FFFFFF;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    
+    color: #FFFFFF;
+}
+input::-ms-input-placeholder, textarea::-ms-input-placeholder{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    
+    color: #FFFFFF;
 }
 input,input::placeholder,textarea,textarea::placeholder{
     font-weight: 400;
@@ -396,8 +514,12 @@ input,input::placeholder,textarea,textarea::placeholder{
     color: #FFFFFF;
 }
 form div{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 textarea{
     width: 100%;
@@ -405,6 +527,8 @@ textarea{
     margin-top: 27px;
 }
 form button{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     font-weight: 600;
 font-size: 18.0002px;
@@ -422,9 +546,15 @@ footer{
     padding: 41px 0 34px 0;
 }
 footer ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     list-style: none;
     max-width:953px ;
     margin: 0 auto;
@@ -439,13 +569,416 @@ text-align: center;
 
 color: #FFFFFF;
 text-decoration: none;
+-webkit-transition: 0.3s;
+-o-transition: 0.3s;
 transition: 0.3s;
 
 }
 footer a:hover{
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
     color: #30BAE7;
-transform: scale(1.2);
+-webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+        transform: scale(1.2);
+}
+@media screen and (max-width:1100px) {
+    .head{
+        max-width: 768px;
+    }
+    .header_content {
+        margin: 100px 0 0 0;
+    }
+    h1 {   
+        font-size: 38px;
+        line-height: 44px;
+        max-width: 80%; 
+    }
+    .header_content button,form button,.portfolio button {
+        margin: 15px auto;
+        font-size: 16px;
+        line-height: 25px;
+        padding: 15px 60px;
+    }
+    .header {
+        padding-top: 40px;
+        padding-bottom: 70px;
+    }
+    .list_services{
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin: 50px auto 0;
+        gap: 10px 0;
+    }
+    .service{
+        padding: 0 9%;
+    }
+    .title h2 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .title p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .services {
+        padding-top: 80px;
+        padding-bottom: 95px;
+    }
+    .service h4 {
+        font-size: 21px;
+        line-height: 34px;
+    }
+    .meet {
+        background: #E7F1F8;
+        padding: 80px 0 95px;
+    }
+    .devops,.list_skills{
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        margin: 50px auto 0;
+        gap: 25px 0;
+    }
+    .dev{
+        max-width: 300px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .dev img{
+        width: 50%;
+    }
+    .dev .name,.skill .name{
+        font-size: 21px;
+        line-height: 34px;
+    }
+    .skills {
+        padding-top: 80px;
+        padding-bottom: 95px;
+    }
+    .portfolio,.touch,.people {
+        padding: 80px 0;
+    }
+    .work img {
+        max-width: 100%;
+    }
+    .work{
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    }
+    .work li{
+        max-width: 35%;
+    }
+.user p{
+    font-size: 19px;
+    line-height: 30px;
+}
+.user h4{
+    font-size: 22px;
+    line-height: 35px;
+    margin-top: 30px;
+}
+
+.user span{
+    font-size: 16px;
+    line-height: 19px;
+}
+.users{
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
+    font-size: 16px;
+    line-height: 25px;
+}
+input::-moz-placeholder, textarea::-moz-placeholder{
+    font-size: 16px;
+    line-height: 25px;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder{
+    font-size: 16px;
+    line-height: 25px;
+}
+input::-ms-input-placeholder, textarea::-ms-input-placeholder{
+    font-size: 16px;
+    line-height: 25px;
+}
+input, input::placeholder, textarea, textarea::placeholder{
+    font-size: 16px;
+    line-height: 25px;
+}
+footer a{
+    font-size: 22px;
+    line-height: 35px;
+}
+
+
+}
+
+@media screen and (max-width:769px) {
+    .head{
+        max-width: 568px;
+    }
+    .header_content {
+        margin: 80px 0 0 0;
+    }
+    h1 {   
+        font-size: 32px;
+        line-height: 38px;
+        max-width: 95%; 
+    }
+    .title h2 {
+        font-size: 22px;
+        line-height: 42px;
+    }
+    .title .line{
+        margin: 0 auto 10px auto;
+}
+.title p {
+    font-size: 14px;
+    line-height: 23px;
+}
+.services {
+    padding-top: 60px;
+    padding-bottom: 75px;
+}
+.list_services{
+    margin: 35px auto 0;
+    }
+    .service div {
+        height: 160px;
+}
+.service h4 {
+    font-size: 19px;
+    line-height: 32px;
+}
+.service p {
+    font-size: 14px;
+    line-height: 22px;
+}
+.meet {
+    background: #E7F1F8;
+    padding: 60px 0 75px;
+}
+.dev .name,.skill .name{
+    font-size: 19px;
+    line-height: 32px;
+}
+.dev .prof{
+    font-size: 14px;
+    line-height: 22px;
+}
+.dev p {
+    font-size: 14px;
+    line-height: 22px;
+}
+.devops_social{
+    margin-top: 15px;
+}
+.skills {
+    padding-top: 60px;
+    padding-bottom: 75px;
+}
+.skill{
+    max-width: 300px;
+    width: 45%;
+}
+.portfolio,.touch,.people {
+    padding: 60px 0;
+}
+.work h5 {
+    font-size: 16px;
+    line-height: 24px;
+}
+.filter li{
+    font-size: 14px;
+    line-height: 20px;
+}
+.user p{
+    font-size: 17px;
+    line-height: 28px;
+}
+.user h4{
+    font-size: 20px;
+    line-height: 33px;
+    margin-top: 20px;
+}
+.user span{
+    font-size: 14px;
+    line-height: 17px;
+}
+form div{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 10px;
+}
+form{
+    width: 90%;
+}
+input{
+    width: 100%;
+}
+footer a{
+    font-size: 20px;
+    line-height: 33px;
+}
+footer ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: 90%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 10px;
+}
+
+}
+@media screen and (max-width:576px) {
+    .head{
+        max-width: 350px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .menu a{
+        padding: 4px 9px;
+    }
+    .header_content {
+        margin: 40px 0 0 0;
+    }
+    
+h1 { 
+
+    font-size: 22px;
+    line-height: 28px;
+    max-width: 95%; 
+}
+.header_content button,form button,.portfolio button {
+    margin: 10px auto;
+    font-size: 14px;
+    line-height: 23px;
+    padding: 10px 40px;
+}
+.header {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.title h2 {
+    font-size: 18px;
+    line-height: 38px;
+}
+.title p {
+    font-size: 12px;
+    line-height: 21px;
+}
+.services {
+    padding-top: 40px;
+    padding-bottom: 55px;
+}
+.list_services{
+margin: 20px auto 0;
+}
+.service div {
+    height: 140px;
+}
+.service h4 {
+    font-size: 17px;
+    line-height: 30px;
+}
+.service p {
+    font-size: 12px;
+    line-height: 20px;
+}
+.meet {
+    background: #E7F1F8;
+    padding: 40px 0 55px;
+}
+.dev .name,.skill .name{
+    font-size: 17px;
+    line-height: 30px;
+}
+.dev .prof{
+    font-size: 14px;
+    line-height: 22px;
+}
+.dev p {
+    font-size: 12px;
+    line-height: 20px;
+}
+.skills {
+    padding-top: 40px;
+    padding-bottom: 55px;
+}
+.portfolio,.touch,.people {
+    padding: 40px 0;
+}
+.work h5 {
+    font-size: 14px;
+    line-height: 22px;
+}
+.work li{
+    max-width: 40%;
+}
+.user p{
+    font-size: 15px;
+    line-height: 26px;
+}
+.user h4{
+    font-size: 18px;
+    line-height: 31px;
+    margin-top: 10px;
+}
+.user span{
+    font-size: 12px;
+    line-height: 15px;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
+    font-size: 14px;
+    line-height: 23px;
+}
+input::-moz-placeholder, textarea::-moz-placeholder{
+    font-size: 14px;
+    line-height: 23px;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder{
+    font-size: 14px;
+    line-height: 23px;
+}
+input::-ms-input-placeholder, textarea::-ms-input-placeholder{
+    font-size: 14px;
+    line-height: 23px;
+}
+input, input::placeholder, textarea, textarea::placeholder{
+    font-size: 14px;
+    line-height: 23px;
+}
+footer a{
+    font-size: 18px;
+    line-height: 31px;
+}
 }
 
 
